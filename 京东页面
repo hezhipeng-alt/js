@@ -1,0 +1,219 @@
+<html>
+    <head>
+        <!-- 解决低版本浏览器乱码问题 -->
+        <meta charset="utf-8" />
+        <!-- 便于搜索引擎优化 ，展示在搜索结果上-->
+        <title>京东(JD.COM)-正品低价、品质保障、配送及时、轻松购物！</title>
+        <!-- 视图 ，根据用户显示的设备，进行调整 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
+        <meta name="description" content="京东JD.COM-专业的综合网上购物商城,销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品等数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物体验!" />
+        <meta name="keywords" content="网上购物,网上商城,手机,笔记本,电脑,MP3,CD,VCD,DV,相机,数码,配件,手表,存储卡,京东" />
+        <!-- 在标签栏显示京东的图标 -->
+        <link rel="icon" href="favicon.ico" />
+
+        <link rel="stylesheet" href="css/jingdong.css">
+
+    </head>
+
+    <body>
+        <!-- 顶部广告 -->
+        <header>
+            <div class="top_ad">
+                <a href="#"> <img src="images/header.png" alt="顶部广告"></a>
+
+            </div>
+
+
+            <div class="shuang12">
+                <a href="#"><img src="images/shaung12.png" alt="双12" /></a>
+            </div>
+
+            <div class="close">
+                <!-- <i class="cha">
+                    <span class="icon-cross"></span>
+                </i> -->
+                <img src="images/cha.png" alt="关闭广告">
+            </div>
+        </header>
+
+        <!-- 导航栏 -->
+        <div class="shortcut">
+            <div class="w">
+                <ul>
+                    <li>
+                        <img class="adress" src="images/adress.png" alt="">
+                        <a class="province" href="#">河南</a>
+                    </li>
+                </ul>
+
+
+                <ul class="fr">
+                    <li>
+                        <a href="#">你好，请登录</a>
+                        <a href="#"> 免费注册 </a>
+                    </li>
+
+                    <li><a href="#">我的订单</a></li>
+                    <li><a href="#">我的京东</a></li>
+                    <li><a href="#">京东会员</a></li>
+                    <li><a href="#">企业采购</a></li>
+                    <li><a href="#">我的订单</a></li>
+                    <li><a href="#">我的订单</a></li>
+                    <li><a href="#">我的订单</a></li>
+
+                </ul>
+
+            </div>
+
+
+        </div>
+
+        <!-- 中间头部 -->
+        <div class="middle w">
+            <!-- logo -->
+            <div class="logo"> 
+                <h1>  <!-- 为了提高搜索引擎的权重 -->
+                    <a href="#"></a>
+                </h1>
+            </div>
+            <!-- 搜索 -->
+            <div class="form">
+                <input type="text" placeholder="苏泊尔电磁炉">
+                <button><i></i></button>
+            </div>
+            <!-- 购物车 -->
+            <div class="shopcar">
+                <i></i>
+                <a href="#" class="f10">我的购物车</a>
+                <span>0</span>
+            </div>
+
+            <!-- 热点词 -->
+            <div class="hotwords">
+                <ul>
+                    <li><a href="#" class="f10">跑步运动惠</a></li>
+                    <li><a href="#">居家好物</a></li>
+                    <li><a href="#">居家好物</a></li>
+                    <li><a href="#">居家好物</a></li>
+                    <li><a href="#">居家好物</a></li>
+                    <li><a href="#">居家好物</a></li>
+                    <li><a href="#">居家好物</a></li>
+                    <li><a href="#">居家好物</a></li>
+                </ul>
+            </div>
+
+            <!-- 小导航 -->
+            <div class="navitems">
+                <ul>
+                    <li><a href="#" class="f10">秒杀</a></li>
+                    <li><a href="#" class="f10">优惠券</a></li>
+                    <li><a href="#">Plus会员</a></li>
+                    <li><a href="#">Plus会员</a></li>
+                    <li><a href="#">Plus会员</a></li>
+                    <li><a href="#">Plus会员</a></li>
+                    <li><a href="#">Plus会员</a></li>
+                    <li><a href="#">Plus会员</a></li>
+                    <li><a href="#">Plus会员</a></li>
+                </ul>
+
+            </div>
+
+            <!-- 超级日 -->
+            <div class="super">
+                <a href="#">
+                    <img src="images/nav_ad.png" alt="超级日" >
+                </a>
+            </div>
+        </div>
+
+        <!-- 网页底部 -->
+        <footer>
+            <!-- 服务 -->
+            <div class="service">
+                <div class="w">
+                    <ul>
+                        <li>
+                            <h5>多</h5>
+                            <p>品类齐全，轻松购物</p>
+                        </li>
+                        <li>
+                            <h5>快</h5>
+                            <p>多仓直发，极速配送</p>
+                        </li>
+                        <li>
+                            <h5>好</h5>
+                            <p>正品行货，精致服务</p>
+                        </li>
+                        <li>
+                            <h5>省</h5>
+                            <p>天天低价，畅选无忧</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 帮助模块 -->
+            <div class="w help">
+                <div class="fl" >
+                    <dl>  <!-- 自定义列表 -->
+                        <dt>购物指南</dt>
+                        <dd><a href="#">购物流程</a> </dd>
+                        <dd><a href="#">购物流程</a> </dd>
+                        <dd><a href="#">购物流程</a> </dd>
+                        <dd><a href="#">购物流程</a> </dd>
+                        <dd><a href="#">购物流程</a> </dd>
+                        <dd><a href="#">购物流程</a> </dd>
+                    </dl>
+
+                    <dl>  <!-- 自定义列表 -->
+                        <dt>购物指南</dt>
+                        <dd><a href="#">购物流程</a> </dd>
+                        <dd><a href="#">购物流程</a> </dd>
+                        <dd><a href="#">购物流程</a> </dd>
+                        <dd><a href="#">购物流程</a> </dd>
+                        <dd><a href="#">购物流程</a> </dd>
+                        <dd><a href="#">购物流程</a> </dd>
+                    </dl>
+
+
+                    <dl>  <!-- 自定义列表 -->
+                        <dt>购物指南</dt>
+                        <dd><a href="#">购物流程</a> </dd>
+                        <dd><a href="#">购物流程</a> </dd>
+                        <dd><a href="#">购物流程</a> </dd>
+                        <dd><a href="#">购物流程</a> </dd>
+                        <dd><a href="#">购物流程</a> </dd>
+                        <dd><a href="#">购物流程</a> </dd>
+                    </dl>
+
+                    <dl>  <!-- 自定义列表 -->
+                        <dt>购物指南</dt>
+                        <dd><a href="#">购物流程</a> </dd>
+                        <dd><a href="#">购物流程</a> </dd>
+                        <dd><a href="#">购物流程</a> </dd>
+                        <dd><a href="#">购物流程</a> </dd>
+                        <dd><a href="#">购物流程</a> </dd>
+                        <dd><a href="#">购物流程</a> </dd>
+                    </dl>
+
+                    <dl>  <!-- 自定义列表 -->
+                        <dt>购物指南</dt>
+                        <dd><a href="#">购物流程</a> </dd>
+                        <dd><a href="#">购物流程</a> </dd>
+                        <dd><a href="#">购物流程</a> </dd>
+                        <dd><a href="#">购物流程</a> </dd>
+                        <dd><a href="#">购物流程</a> </dd>
+                        <dd><a href="#">购物流程</a> </dd>
+                    </dl>
+                </div>
+            </div>
+
+
+
+        </footer>
+
+
+
+    </body>
+
+</html>
