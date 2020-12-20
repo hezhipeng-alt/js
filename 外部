@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script>
+           console.log("日志信息，我输出的！");   // 级别最轻 
+           console.info("通知信息，我打的！");    
+           console.warn("警告信息，我干的！");            
+           console.error("错误信息，出事了！");   // 级别最高
+ 
+           console.debug("debug信息，哈哈哈哈");   //调试信息 
+        </script> 
+
+    </head>
+    <body>
+        
+    </body> 
+
+
+
+
+
+
+
+
+</html>
