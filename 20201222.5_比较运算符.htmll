@@ -1,0 +1,52 @@
+<html>
+   <head>
+      <script>
+         /*
+            ==   ===  !=   >  <   >=  <=
+         */      
+         var x = 1; // = 赋值
+ 
+         console.log( 1 == 1);  // 比较是否相等  true
+         console.log( 1 == 2);  //false
+         console.log( 1 == "1");  // true
+         console.log( 1 == '1');  // true
+    
+         console.log( 1 === 1);  // true 恒等于
+         console.log( 1 === "1");  // false 不恒等于
+         console.log( 1 === '1');  // false 不恒等于
+         console.log( "1" === '1');  //  true 恒等于  
+
+         //  != 不等于
+         console.log( 1 != 1) ;  // false
+         console.log( 1 != 3 );   //true
+
+         // <  小于 >  大于
+         console.log( 1 < 2) ;  // true
+         console.log( 3> 5 );   //false
+
+         
+         // >= 大于等于     <= 小于等于
+         console.log( 1 >= 1);  // true
+         console.log( 3 <= 1);  // false
+     
+      </script>
+   </head>
+   <body>
+      
+   </body>  
+     
+</html>
+     
+     
+
+
+
+
+
+
+
+
+
+
+
+
