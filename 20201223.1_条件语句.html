@@ -1,0 +1,96 @@
+<html>
+   <head>
+     <script>
+     function checkAge(){
+       // alert("lalala");
+       var inputAge = document.getElementById("age");
+       //  console.log(inputAge);  //  <input type="text" id="age">
+       var getAge = inputAge.value;
+       // console.log(getAge);    // "34"
+       // console.log(typeof(getAge));   // string
+       var intAge = parseInt(getAge);  // 34
+       // console.log(typeof(intAge));   // Number
+       /* if(intAge > 18){
+         alert("你已成年，欢迎光临");
+        } */ 
+        
+        /* if(intAge > 18){
+          alert("你已成年,欢迎光临");
+        }else{
+          alert("滚犊子,好好学习去");
+        } */ 
+        /*  if(intAge <=10){
+          console.log("你还是小朋友");   
+        }else if (intAge <= 20){
+          console.log("中二青年"); 
+        }else if(intAge <=30){
+          console.log("青壮年");   
+        } else if(intAge <= 40){
+          console.log("中年人");
+        } else if ( intAge <= 50){
+          console.log("中老年人");
+        } else if ( intAge <= 60){
+          console.log("大爷");
+        } else {
+          console.log("老年人");
+        } */
+        let ageRank = parseInt(intage/10);  // 取出年龄的十位数字  
+        switch(ageRank){
+          case 0:
+          console.log("小朋友");
+          break;
+                      case 1:
+                      console.log("中二青年");
+                      break;
+                      case 2:
+                      console.log("青壮年");     
+                      break;
+                      case 3:
+                      console.log("中年人");
+                      break;
+                      case 4:
+                      console.log("中老年人");     
+                      break;
+                      case 5:
+                      console.log("大爷");
+                      break;
+                      default:                       
+                      console:log("老年人");
+                      break;  
+                    }
+                    
+                  } 
+                    </script>       
+                    </head>
+                    
+                
+                <body>
+                  <span> 请输入你的年龄</span>  
+                  <input type="text" id="age">
+                  <button onclick="checkAge()">成年了么?</button>      
+                  <input type="button" value="成年了么?" onclick="checkAge()">
+                </body>
+</html>
+                
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <script></script>
