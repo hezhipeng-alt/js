@@ -1,0 +1,25 @@
+<html>
+    <head>
+       <script>
+           /* 
+                window.onload  当页面加载完成,再执行触发函数
+           */
+           window.onload = function(){
+               document.getElementById("btn").onclick = function(){
+                   alert("呵呵");
+               }
+           }
+
+       </script> 
+    </head>
+    <body>
+        <button id="btn">点击</button>
+    </body>
+       <script>
+        document.getElementById("btn").onclick = function(){
+            alert("haha");
+        }
+
+    </script> 
+
+</html>
