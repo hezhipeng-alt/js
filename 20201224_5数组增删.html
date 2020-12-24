@@ -1,0 +1,53 @@
+<html>
+   <head>
+      <script>
+         /* 
+              添加元素
+              push unshift         
+         */
+         var array01 = new Array(); 
+         array01.push(1);   // 在数组的后面加入新元素
+         array01.push(2);  
+         array01.push(3);
+         array01.push(4);
+         array01.push(5);
+         array01.push(6);
+         array01.push(7);
+         array01.push(8);
+         array01.push(9);
+         console.log(array01);
+
+         array01.unshift(10);   //在数组前面加入新元素 
+         console.log(array01);  // 10  123456789
+         /* 
+          删除
+          pop shift
+         */
+         array01.pop();  //从数组的最后弹出一个元素
+         console.log(array01);  //10  12345678
+         array01.shift();
+         console.log(array01);  //12345678
+         /* 
+           修改
+           slice   截取   切片   slice(开始截取的位置,结束截取的位置)
+           splice                splice(在旧数组中要添加元素的位置,在旧数组中要删除几个元素,要添加的新元素)
+           */
+          let array02 = [31,32,5345,46,35,234,432,432,432,42,3] ;
+          var array03 =array02.shift(1,4);  //[包含开始位置元素,不包含结束位置元素]
+          console.log(array03);
+          
+          var array04 = array02.shift(3);  //46,35,234,432,432,432,42,3 只写一个参数,表示开始位置,结束在末尾
+          
+          let array05 = [31,32,5345,46,35,234,432,432,432,42,3];
+          array05.splice(1,0,[1,2,3]);   //在索引为1的地方加入元素 123
+          console.log(array05);          //[31, Array(3), 32, 5345, 46, 35, 234,432, 432, 432,42,3]  
+          array05.log(array05);                               //Array(3)只占用一个位置    
+          </script> 
+    </head>
+    
+    <body>
+      
+    </body>
+    
+    
+</html>
