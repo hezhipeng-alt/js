@@ -1,0 +1,26 @@
+<html>
+   <head>
+   </head>       
+   <body>
+       <div id="header">
+           <ul id="nav">
+
+           </ul>
+       </div>
+
+       <script>
+           let navList = ["秒杀","优惠券","Plus会员","品牌闪购","拍卖","京东家电","京东超市"]
+           var ListContent ="";
+           for (navItem in navList){
+               ListContent += "<li><a>"+navList[navItem] + "</a></li>";
+           }
+           console.log(ListContent);
+           
+           //
+           var  getUl = document.getElementById("nav");  
+           getUl.innerHTML = ListContent;
+       </script>
+   </body>    
+</html>       
+
+       
