@@ -1,0 +1,44 @@
+<html>
+   <head>
+      <script>
+         // 新建数组   array(数组)
+         var  array01 = new Array();   ///  数组, 名字叫 array01  没有给定初始值
+         var  array02 = new Array(23,435,56,23,765,34,1234,3,76);  //创建一个数组,并且初始化  
+         var  array03  = new Array("令狐冲","东方不败","任盈盈","岳不群");
+         var  array04  = new Array("任盈盈",20,170.34,true,null);
+
+     
+         //  字面量
+         var array05 = [];  //创建一个数组  没有给定初始值
+         var array06 = [1,23,14,26,436,23523,23,235,6,42,23];  //字面量创建数组,并给定初始值  
+         var array07 = ["令狐冲","东方不败","任盈盈","岳不群"];  //元素类型也可以是字符串,不一定非得是数字
+         var array08 = ["任盈盈",20,170.34,true,null];   //类型还可以相互不同     
+     
+         //   查看
+         console.log(array02,typeof(array02));   //查看  object(对象的意思)
+         console.log(array02.length);   // 9求数组的长度
+         console.log(array02[0]);       //23  访问第一个元素
+         console.log(array02[array02.length-1]);   //最后一个元素
+         console.log(array02[array02.length]);     //越界  超越边界  undefined
+     
+         //  数组的遍历  挨个打印
+         for (let i= 0 ; i < array02.length; i++){
+            console.log(array02[i]);
+         } 
+         //  另一种遍历方式 增强for循环  加序号的打印
+         for ( i in array02){
+            console.log(i + ":" + array02 [i]) ;
+         }
+         
+         </script>
+   </head>
+   <body>
+      
+   </body>
+   
+   
+   
+</html>
+     
+     
+     
