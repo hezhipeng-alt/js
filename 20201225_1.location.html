@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script>
+            console.log(location.hash); // 哈希
+            console.log(location.host)  // 主机  127.0.0.1:8848
+            console.log(location.hostname) // 主机名 127.0.0.1
+            console.log(location.port)  // 端口号 8848
+            console.log(location.href)  // 跳转地址   http://127.0.0.1:8848/ch06/demo02_location.html   
+            console.log(location.pathname)  // 路径名  /ch06/demo02_location.html
+            console.log(location.protocol)  //  协议  http:
+            console.log(location.search)   // 请求参数  ?name=zhangsanfeng     
+            function jump(){
+                window.location.href = "demo02_back.html";
+            }
+
+
+        </script>
+    </head>
+
+    <body>
+       <button onclick="jump()"> 跳转到demo03</button>  
+    </body>
+
+</html>
