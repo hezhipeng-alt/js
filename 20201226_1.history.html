@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <script>
+            /* 
+                back() 方法  返回上一级
+            */
+
+            function goBack(){
+                // alert();
+                history.back(); // 回到上一级   
+            }
+
+            function goBack02(){
+                history.go(-1);  
+            }
+
+            function goBack03(){
+                history.go(-2);
+            }
+
+        </script>
+    </head>
+
+    <body>
+        <button onclick="goBack()"> 返回 </button>
+
+        <button onclick="goBack02()"> go实现的返回 </button>
+
+        <button onlcick="goBack03()"> go实现的返回 </button>
+    </body>
+
+</html>
+
+
