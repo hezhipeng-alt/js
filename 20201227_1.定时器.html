@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <script>
+        /* 
+            setTimeout(时间到了要做的事. 时间)
+            setInterval( 时间到了要干的事，间隔时间)  
+        */
+        setTimeout(function(){
+            console.log("爆炸了");
+        } , 2000 );
+
+        let qushi = setInterval(function(){
+             console.log("当场去世");
+        } , 2000 );
+        
+        function jishi(){   // 计时
+            let t= new Date();     
+            document.getElementById("showtime").innerHtml = t.toLocaleTimeString();
+        }
+        
+        let  timer = setInterval(jishi, 1000);   每一秒调用一次jishi函数
+
+        setInterval( ()=> {  // 箭头函数 lambda 拉布达表达式
+             console.log("我是来装13的");
+        },1000);
+
+        function stop(){
+              clearInterval(timer);
+              clearInterval(qushi);
+        } 
+
+        </script>
+    </head>
+
+    <body>
+        
+        <div id="showtime">
+
+        </div>
+        <button onclick="stop()"> 你敢按吗 ?</button> 
+
+
+    </body>
+
+</html>
