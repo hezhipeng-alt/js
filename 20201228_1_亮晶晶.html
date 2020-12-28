@@ -1,0 +1,59 @@
+<html>
+    <head>
+       <style>
+           #container{
+               width: 400px;    
+               height: 400px;  
+               border: 2px solid yellowgreen;
+               background-color: black ;  
+               position:relative;
+     
+            }  
+
+
+            span{
+                font-size: 30px;
+                color: yellow;
+                position: absolute;
+            } 
+
+         </style>
+
+        
+    
+    
+    </head>    
+
+    <body>
+        <div id="container">
+            <!-- <span>*</span> -->
+        </div> 
+
+        <button id="star_flash" onclick="startFlash()">一闪一闪亮晶晶</button>
+
+    </body>
+
+    <script>
+        function startFlash(){
+            setInterval(function(){
+                // var temp = document.getElementById("container");
+                // console.log(temp);
+                //  document.getElementById("container").innerHtml = "<span> * </span> ";
+                    // document.getElementById("container").innerHtml = "<span> * </span> ";
+                // random() [0,1) *400 = [0,400) +1 = [1,400)
+                var get = document.getElementById("container");
+                get.innerHTML = "<span> * </span> " ;
+                console.log(get);
+                let  x=parseInt(Math.random()*400 + 1);                                  
+                let  y=parseInt(Math.random()*400 + 1); 
+                // var first = document.getElementById("container").firstElementChild;
+                // console.log(first);
+                document.getElementById("container").firstElementChild.style.left = x +"px";
+                document.getElementById("container").firstElementChild.style.top = y +"px";
+             } ,1000 );
+
+            
+        }   
+     
+     </script>
+</html>
