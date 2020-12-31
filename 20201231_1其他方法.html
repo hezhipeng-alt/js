@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <script>
+            // reverse  反转操作
+            var array01 = new Array(34,45,1,64,21,76,);
+            array01.reverse();  //反转操作
+            console.log(array01);
+
+            //  slice(开始要截取的位置  要结束的位置)    切片 子数组 截取数组的一部分
+            var array02 = new Array(32,43,54,65,76,87,8);
+            var array04 = array02.slice(3);    //只有一个参数 那么参数位数为起始位置  结束在最后
+            var array03 = array02.slice(1,3);  //包含开始的位置,不包含结束的位置  例如截取1,2位置的数 不截取3位置的数
+            console.log(array02); //打印原数组
+            console.log(array03); //打印截取的数组
+            console.log(array04); //打印单个参数
+
+            //  splice  (要在旧数组中开始添加新元素的位置,要删除的元素个数,要添加元素内容 )
+            var array05 = new Array(23,42,53,52,12,32);
+            var array06 = array05.splice(2,0, [1,2,3]); //语意 在第二个位数后面  删除0位数  添加[1,2,3]数组
+            console.log(array06);
+            console.log(array05);
+
+            // 删除
+            var array05 = new Array(23,42,53,52,12,32);
+            var array06 = array05.splice(3);  //只有一个数字  删除3位数后边的数组
+            console.log(array06);
+            console.log(array05);
+
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
