@@ -1,0 +1,33 @@
+<html>
+    <head>
+
+
+    </head>
+    <body>
+        <div id="show">
+
+        </div>
+        <div class="duanluo">
+            <p class="duanluo-1">段落1</p>
+            <p class="duanluo-1">段落2</p>
+        </div>
+        <ul id="list">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+        <img src="xiaochounv.jpg alt="">
+    </body>
+    <script>
+        var get_article = document.querySelectorAll(".duanluo");
+        console.log(get_article);
+        get_article[0].style.color = "red";
+        get_article[0].style.fontSize = 80;
+        get_article[0].style.letterSpacing = "10px";//字符间距
+
+        var imgs = document.getElementsByTagName("img");
+        imgs[0].style.width = "10px";
+        imgs[0].style.height = "50px";
+    </script>
+</html>  
