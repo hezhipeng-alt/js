@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>文档结构和遍历</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div class="test" id="first">
+            <span>First text</span>
+         </div>
+            <div  class="test" id="second">Second text</div>
+            <div  class="test" id="third">Third  text</div>
+            <div  class="test" id="four">Four  text</div>
+            <div  class="test" id="five">Five  text</div>
+            <div  class="test" id="six">Six  text</div>
+        </div>
+     </body>        
+     <script>
+           //1, 为了使用方式对   选择器 进行封装
+           var $ = function(id){
+            return document.querySelector(id);
+        }
+        //2, 遍历node节点
+        var el = $("#wrapper");
+        /* 
+        children与Element(firstElementChild等的统称)将主要关注的点集中在元素上,而不是文本上(例如text,comment)
+        */
+       console.log(el.childrren);
+       console.log(el.firstElementChild);
+       console.log(el.lastElementChild);
+       console.log(el.firstElementChild.nextElementSibling);
+       console.log(el.lastElementChild.previousElementSibling);
+       console.log(el.childElementCount);//子元素的数量,返回的值和children.length相等
+       /* 
+       Dovunment对象,它的Element对象和文档中表示文本的text对象都是Node对象
+       */
+      console.log(el.parentNode);//return body的node对象
+      console.log(el.childNodes);//返回该节点的子节点实时表示内包含text,comment
+      console.log(el.firstChild);//该节点的子节点的第一个,没有则为null
+      console.log(el.lastChild);//该节点的子节点最后一个,没有则为null
+
+      var eFirst = $("#first");
+      console.log(eFirst.nextSibling);//返回该节点的兄弟节点的下一个节点
+      console.log(eFirst.nextSibling.nextSibling);//这里返回注释接节点
+      console.log(eFirst.previousSibling);//返回该节点的兄弟节点的上一个节点
+      
+    </script>
+</html>
