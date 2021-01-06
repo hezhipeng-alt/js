@@ -1,0 +1,35 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div id="box">
+            这是div中的字
+            <span>这是span中的字</span>
+        </div>
+
+    </body>
+    <script>
+        var get_div = document.querySelector("box");
+        /* 
+        这是div中的字
+        <span>这是span中的字</span>
+        */
+        console.log(get_div.innerHTML);
+        /* 
+            <div id="box">
+            这是div中的字
+            <span>这是span中的字</span>
+        </div>
+        */
+        console.log(get_div.outerHTML);
+        /* 
+        
+        */
+        console.log(get_div.innerText);
+        /* 
+        
+        */
+        console.log(get_div.outerText);
+    </script>
+</html>
