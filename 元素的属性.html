@@ -1,0 +1,22 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <input type="text" name="cityname" id="city" value="北京"/>
+    </body>
+    <script>
+        var get_input = document.querySelector("[name=cityname");
+        console.log(get_input);
+        console.log(get_input.value);  //property  HTML属性  属性
+        get_input.value = "上海";
+        console.log(get_input.value);
+
+        //js与HTML的区别
+
+        console.log(get_input.getAttribute("value")); //js中的特性 js中的特性
+        get_input.setAttribute("value","广州");
+        console.log(get_input.getAttribute("value")); //js中的特性 js中的特性
+
+    </script>
+</html>
