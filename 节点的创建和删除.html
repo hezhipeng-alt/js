@@ -1,0 +1,38 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <div id="show">
+        </div>
+        <ul id="list">
+        </ul>
+    </body>
+    <script>
+        //1,准备一个新的节点
+        var new_div = document.createElement("div");
+        new_div.style.width = "300px";
+        new_div.style.height = "300px";
+        new_div.style.backgroundColor = "green";
+        new_div.innerText = "新加入的节点";
+
+        //2,获得被加入的节点
+        var get_div = document.querySelector("#show");
+
+        //3,挂载,把新节点挂载在被加入节点  的位置
+        get_div.appendChild(new_div);
+
+        // 批量添加节点
+
+        //1,获取被加入的节点
+        var get_list = document.querySelector("#list");
+
+        //2,批量创建好多个list
+        for (let i=0 ; i < 20 ; i++){
+            let li_new = document.createElement("li");
+            li_new.innerHTML = "这是批量加入的第"+ i +"个节点";
+        //3,追加节点
+        get_list.appendChild(li_new);
+        }
+        //删除.     get_list.removeChild(li_new);
+    </script>
+</html>
