@@ -1,0 +1,24 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        访问cookie
+    </body>
+    <script>
+        document.cookie = "id=110";
+        document.cookie = "Nickname=hello";
+        document.cookie = "age=18";
+        var get_cookie = document.cookie;
+        console.log(get_cookie);
+
+
+        var date = new Date(new Date().getTime() + 30*60*1000 ); //当前时间30分钟之后
+        var dateBefore = new Date(new Date().getTime() - 30*60*1000 ); //当前时间30分钟之前
+
+        
+        document.cookie = "name=a;expires=" +date.toGMTString();
+        console.log(get_cookie);
+
+    </script>
+</html>
